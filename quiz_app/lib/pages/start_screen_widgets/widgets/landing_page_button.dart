@@ -14,9 +14,14 @@ class _LandingPageButton extends State<LandingPageButton> {
       style: OutlinedButton.styleFrom(
         shape: RoundedRectangleBorder(borderRadius: BorderRadius.zero),
       ),
-      onPressed: () {},
-      icon: Icon(Icons.arrow_right_alt),
-      label: Text('Start Quiz', style: TextStyle(color: Colors.white)),
+      onPressed: () {
+        //todo
+      },
+      icon: Icon(Icons.arrow_right_alt, size: 30, color: Colors.white),
+      label: Text(
+        'Start Quiz',
+        style: TextStyle(color: Colors.white, fontSize: 20),
+      ),
     );
   }
 }
